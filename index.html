@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clases con Edgar - Matemáticas y Programación</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header>
+    <div class="container">
+      <h1>Clases con Edgar</h1>
+      <p>Matemáticas • Programación • Ingeniería</p>
+    </div>
+  </header>
+
+  <!-- Sección Principal -->
+  <section class="hero">
+    <div class="container">
+      <h2>¿Te cuesta aprobar Cálculo o Programación?</h2>
+      <p>Yo te ayudo a entenderlo de verdad. Clases online en vivo, en español, con material práctico.</p>
+      <a href="#contacto" class="btn">Agenda 1/2 hora de clase GRATIS</a>
+      <a href="https://wa.me/584247785974 " target="_blank" class="btn wa-btn">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg " alt="WhatsApp" class="icon"> Contactar por WhatsApp
+</a>
+    </div>
+  </section>
+
+  <!-- Sobre Mí -->
+  <section class="about" id="sobre-mi">
+    <div class="container">
+      <h2>Sobre Mí</h2>
+      <img src="images/edgar.jpg" alt="Edgar Puente" class="profile-img">
+      <p>Soy <strong>Edgar Augusto Puente</strong>, ingeniero de sistemas egresado de la Universidad de Los Andes (ULA), con postgrado en <strong>Automatización y Control</strong>. Desde Mérida, Venezuela, ayudo a estudiantes universitarios de habla hispana a dominar materias clave como Cálculo, Álgebra Lineal, Métodos Numéricos y programación en Python, C# y MATLAB. Mis clases son claras, prácticas y adaptadas a tu nivel.</p>
+    </div>
+  </section>
+
+  <!-- Cursos -->
+  <section class="courses">
+    <div class="container">
+      <h2>Mis Cursos</h2>
+      <ul>
+        <li>✅ Cálculo Diferencial</li>
+        <li>✅ Álgebra Lineal</li>
+        <li>✅ Métodos Numéricos</li>
+        <li>✅ Estadística Descriptiva</li>
+        <li>✅ Programación en Python</li>
+        <li>✅ Programación en C#</li>
+        <li>✅ MATLAB, Simulink y App Designer</li>
+      </ul>
+    </div>
+  </section>
+
+<!-- Precios -->
+<section class="prices">
+  <div class="container">
+    <h2>                 Precios</h2>
+    <table>
+      <tr>
+        <th>Plan</th>
+        <th>Precio</th>
+        <th>Detalles</th>
+      </tr>
+      <tr>
+        <td>Clase individual</td>
+        <td>$15 USD</td>
+        <td>1 hora, material incluido</td>
+      </tr>
+      <tr>
+        <td>5 clases</td>
+        <td>$70 USD</td>
+        <td>Ahorras $5</td>
+      </tr>
+      <tr>
+        <td>Clase grupal (3-5 personas)</td>
+        <td>$8 USD por persona</td>
+        <td>Ideal para compañeros</td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+  <!-- Contacto -->
+  <section class="contact" id="contacto">
+    <div class="container">
+      <h2>Agenda tu clase la primera 1/2 hora es GRATIS</h2>
+      <form action="#" method="POST" onsubmit="enviarFormulario(event)">
+        <input type="text" name="nombre" placeholder="Tu nombre" required>
+        <input type="email" name="email" placeholder="Tu correo" required>
+        <select name="curso">
+          <option value="">Curso de interés</option>
+          <option value="calculo">Cálculo Diferencial</option>
+          <option value="python">Python</option>
+          <option value="matlab">MATLAB</option>
+          <option value="otros">Otros</option>
+        </select>
+        <button type="submit">Enviar solicitud</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Clases con Edgar. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
