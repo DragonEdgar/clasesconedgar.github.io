@@ -110,6 +110,18 @@ button {
   cursor: pointer;
 }
 
+/* Contenedor de botones */
+.buttons {
+  display: flex;
+  flex-direction: column; /* Hace que los elementos estén uno encima del otro */
+  gap: 15px; /* Espacio entre botones */
+}
+
+/* Alineación central (opcional) */
+.buttons {
+  text-align: center; /* Centra los botones horizontalmente */
+}
+
 footer {
   background: #1a3c6e;
   color: white;
